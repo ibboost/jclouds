@@ -87,7 +87,7 @@
 
   <repositories>
     <repository>
-      <id>private.snapshots</id>
+      <id>nexus.snapshots</id>
       <url>http://nexus.internal.ibboost.com:8081/nexus/content/repositories/snapshots</url>
       <releases>
         <enabled>false</enabled>
@@ -101,7 +101,7 @@
   <!-- to allow downstream projects to access jclouds-resources in plugin config -->
   <pluginRepositories>
     <pluginRepository>
-      <id>private.snapshots</id>
+      <id>nexus.snapshots</id>
       <url>http://nexus.internal.ibboost.com:8081/nexus/content/repositories/snapshots</url>
       <releases>
         <enabled>false</enabled>
